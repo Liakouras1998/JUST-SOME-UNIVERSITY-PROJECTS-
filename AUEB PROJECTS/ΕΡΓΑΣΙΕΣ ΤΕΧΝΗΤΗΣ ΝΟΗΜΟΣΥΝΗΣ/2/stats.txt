@@ -1,0 +1,61 @@
+	Naive Bayes(Bernoulli)
+
+Test on training data from C:\Users\niki\Desktop\cs\ai\lingspam_public\lingspam_public\bare\part1
+	False positives: 2 ham messages were considered spam
+	False negatives: 7 spam messages were considered ham
+	Accuracy: 96,89 %
+	Percistion: 0.9534883720930233%,
+	Recall: 0.8541666666666666%,
+	F1: 0.9010989010989011%.
+Test data from C:\Users\niki\Desktop\cs\ai\lingspam_public\lingspam_public\bare\part2
+51 ham messages were considered spam
+3 spam messages were considered ham
+Accuracy: 81,31 %
+
+
+	 Naive Bayes(Multinomial) 
+
+Training
+Training: Finished
+Testing
+Testing: Finished
+Statistics
+	Training data: 48 spams. 241 hams. Total: 289.
+	Testing data: 48 spams. 241 hams. Total: 289.
+	Filtering results: False positives: 14, False negatives: 23, Accuracy: 252/289 (87,2%),
+	Percistion: 0.7083333333333334%,
+	Recall: 0.5964912280701754%,
+	F1: 0.6476190476190476%.
+Statistics: Finished
+
+	ID3
+
+Test on training data from C:\Users\niki\Desktop\cs\ai\lingspam_public\lingspam_public\bare\part1
+	False positives: 0 ham messages were considered spam
+	False negatives: 0 spam messages were considered ham
+	Accuracy: 100 %
+	Percistion: 1.0%,
+	Recall: 1.0%,
+	F1: 1.0%.
+Test data from C:\Users\niki\Desktop\cs\ai\lingspam_public\lingspam_public\bare\part2
+48 ham messages were considered spam
+0 spam messages were considered ham
+Accuracy: 83,39 %
+
+
+	Adaboost
+
+Test on training data from C:\Users\niki\Desktop\cs\ai\lingspam_public\lingspam_public\bare\part1
+	False positives: 1 ham messages were considered spam
+	False negatives: 24 spam messages were considered ham
+	Accuracy: 91,35 %
+	Percistion: 0.96%,
+	Recall: 0.5%,
+	F1: 0.6575342465753424%.
+Test data from C:\Users\niki\Desktop\cs\ai\lingspam_public\lingspam_public\bare\part2
+33 ham messages were considered spam
+39 spam messages were considered ham
+Accuracy: 75,09 %
+
+========================================================================================================================
+
